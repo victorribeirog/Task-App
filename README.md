@@ -17,7 +17,7 @@ Task App is a comprehensive task management application designed to help users e
 
 ## Project Structure
 
-plaintext
+```bash
 Task-App-main/
 ├── .gitignore
 ├── package-lock.json
@@ -35,8 +35,7 @@ Task-App-main/
     └── routers/
         ├── taskRouter.js
         └── userRouter.js
-
-
+```
 ### Directories and Files
 
 - **src/db/mongoose.js**: Database connection setup using Mongoose.
@@ -58,26 +57,30 @@ Task-App-main/
 ### Installation
 
 1. Clone the repository:
+   ```bash
    sh
    git clone <repository-url>
-   
-2. Navigate to the project directory:
+   ```
+3. Navigate to the project directory:
+   ```bash
    sh
    cd Task-App-main
-   
-3. Install dependencies:
+   ```
+5. Install dependencies:
+   ```bash
    sh
    npm install
-   
+   ```
 
 ### Running the Application
 
 1. Start the MongoDB server if it is not already running.
 2. Start the application:
+   ```bash
    sh
    npm start
-   
-3. The server will be running at http://localhost:3000.
+   ```
+4. The server will be running at http://localhost:3000.
 
 ### API Endpoints
 
@@ -110,11 +113,3 @@ The application uses centralized error handling through the errorHandler.js midd
 ## Contribution
 
 Contributions are welcome! Please fork the repository and submit a pull request for review.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-This detailed README.md provides an overview of the project, technologies used, installation instructions, API endpoints, and other relevant information to help developers understand and contribute to the project.
